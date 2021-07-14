@@ -4,32 +4,6 @@
 <h1 align=center><font size = 5>Machine Learning en la industria del retail.</font></h1>
 <br>
 
-# Introducción
-<br>
-Este proyecto fue basado en un ejercicio usado de ejemplo durante el curso de <a href="https://platzi.com/clases/scikitlearn-ml/">Scikiti-Learn</a> en <a href="https://platzi.com/">Platzi</a>.<br><br>
-
-Para este ejercicio estaré usando el algoritmo de agrupación llamado "K-means" para resolver la tarea de agrupar 85 distintos dulces basándonos en sus propiedades, en este caso, basándonos en los valores de las columnas dentro del set de datos.<br><br>
-
-Agradecimiento especial al profesor <a href="https://www.linkedin.com/in/arielortiz/">Ariel Ortiz</a> por la excelente clase.
-
-
-
-***
-# Librerias
-<br>
-  
-   <li> <b>joblib:</b>   1.0.1<br></li>
-   <li> <b>numpy </b> 1.21.0<br></li>
-   <li> <b>pandas:</b> 1.3.0<br></li>   
-   <li> <b>scikit-learn:</b> 0.24.2<br></li>
-   <li> <b>scipy:</b> 1.7.0 <br></li>
-  <br>
-
-
-
-
-
-***
 # Justificación del proyecto
 <br>
 
@@ -54,6 +28,12 @@ Como podemos observar, la categorización adecuada de los productos puede genera
 
 Por suerte para nosotros, existe un algoritmo de categorización llamado K-means que nos puede facilitar el trabajo de la creación de grupos de productos basado en las propiedades que comparten. Esto no es más que aplicar unas instrucciones matemáticas a una base de datos que incluya las características de nuestros productos. Con esta información podremos crear y solicitar un listado de aquellos productos miembros de cada grupo en un intento de mejorar la experiencia del consumidor y garantizar mayores conversiones de ventas.
 
+<br>
+
+***
+# Data
+<br>
+
 Para este proyecto utilizaremos la base de datos llamada The Ultimate Halloween Candy Power Ranking creada por FiveThirtyEight. Este conjunto de datos fue recolectado al crear una página web en donde a los participantes se les mostraba dos diferentes dulces y se les preguntaba su favorito. Más de 269,000 votos fueron realizados de 8,371 diferentes direcciones de IP. (FiveThirtyEight, 2017)
 
 Cada columna representa una característica del dulce y se utiliza el valor de "1" en caso de cumplir con la característica o "0" en caso de no cumplirla. 3 columnas fueron creadas adicionalmente con los resultados del experimento.
@@ -72,6 +52,11 @@ Las características de la colección de datos son las siguientes:
 - sugarpercent: El parcentaje de contenido de azúcar con relación al resto de dulces.
 - pricepercent: La unidad de precio con relación al resto de dulces.
 - winpercent: Porcentaje de victorias acorde a 269,000 comparaciones.
+<br>
+
+***
+# Metodología
+<br>
 
 Usaremos Python como nuestro lenguaje junto con Pandas y  Scikit-Learn como nuestras herramientas para ejecutar el algoritmo en nuestros datos y obtener como resultado nuestros grupos en un formato de marco de datos que faciliten su interpretación.
 
@@ -104,12 +89,46 @@ En conclusión, podemos utilizar las tecnologías para facilitar nuestro trabajo
 ¿Te ha gustado este tema? Soy un fanático de las tecnologías y su aplicación casos prácticos de negocios. Si quieres agregar información adicional o incluso contar tu punto de vista, no dudes en contactarme o dejarme un comentario aquí mismo. Te agradezco tu tiempo y espero que hayas disfrutado de este ejercicio tanto como yo al realizarlo.
 
 <br>
-¡Que estés bien!
 
- 
+¡Que estés bien!
+<br>
+<br>
+***
+# Inspiración
+<br>
+Este proyecto fue basado en un ejercicio usado de ejemplo durante el curso de <a href="https://platzi.com/clases/scikitlearn-ml/">Scikiti-Learn</a> en <a href="https://platzi.com/">Platzi</a>.<br>
+
+
+Agradecimiento especial al profesor <a href="https://www.linkedin.com/in/arielortiz/">Ariel Ortiz</a> por la excelente clase.
+
+<br>
+
+
+***
+# Librerias
+<br>
+  
+   <li> <b>joblib:</b>   1.0.1<br></li>
+   <li> <b>numpy </b> 1.21.0<br></li>
+   <li> <b>pandas:</b> 1.3.0<br></li>   
+   <li> <b>scikit-learn:</b> 0.24.2<br></li>
+   <li> <b>scipy:</b> 1.7.0 <br></li>
+  <br>
+
+
+
+
+
+***
+
  ***
 
- ## Bibliografy
+ ## Bibliografía
+ ***
+ <br>
+
+
+
 [https://www.sciencedirect.com/science/article/pii/S1877050915035929](https://www.sciencedirect.com/science/article/pii/S1877050915035929)
 
 [https://courses.lumenlearning.com/wm-retailmanagement/chapter/layout-of-products/](https://courses.lumenlearning.com/wm-retailmanagement/chapter/layout-of-products/)
