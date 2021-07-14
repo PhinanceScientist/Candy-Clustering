@@ -6,7 +6,7 @@
 
 # Introducción
 <br>
-Este proyecto fue basado en un ejercicio usado de ejemplo durante el curso de <a href="https://platzi.com/clases/scikitlearn-ml/">Scikiti-Learn course</a> en <a href="https://platzi.com/">Platzi</a>.<br><br>
+Este proyecto fue basado en un ejercicio usado de ejemplo durante el curso de <a href="https://platzi.com/clases/scikitlearn-ml/">Scikiti-Learn</a> en <a href="https://platzi.com/">Platzi</a>.<br><br>
 
 Para este ejercicio estaré usando el algoritmo de agrupación llamado "K-means" para resolver la tarea de agrupar 85 distintos dulces basándonos en sus propiedades, en este caso, basándonos en los valores de las columnas dentro del set de datos.<br><br>
 
