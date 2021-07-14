@@ -12,7 +12,7 @@ En la industria del Retail, o Comercio Minorista, es uno de los mercados más in
 
 Durante el 2019 el valor global de ésta industria llegó a los $25 Billones de dólares ($25 Trillion Dollars), de los cuales más del 75% fue generado por tiendas físicas. Se pronostica que para el 2022 el valor total de la industria del retail llegue a los $27 Billones ($27 Trillion Dollars) de dólares.
 
-Una de las características más notables que podemos encontrar en esta industria se puede resumir bajo la siguiente frase: "**Los mejores productos, sin una disposición adecuada, no se venden**." Esta frase hace referencia a distintos problemas relacionados con el comportamientos de los compradores y la relación que tenga la organización de los productos durante la experiencia de compra. 
+Una de las características más notables que podemos encontrar en esta industria se puede resumir bajo la siguiente frase: "**Los mejores productos, sin una disposición adecuada, no se venden**." Esta frase hace referencia a distintos problemas relacionados con el comportamiento de los compradores y la relación que tenga la organización de los productos durante la experiencia de compra. 
 
 Si bien la manera en que acomodamos los productos influyen en el éxito de venta de los productos, también la oferta de opciones de productos similares pude considerarse un factor sumamente importante para analizar.
 
@@ -63,8 +63,6 @@ Usaremos Python como nuestro lenguaje junto con Pandas y  Scikit-Learn como nues
 Usar Sckit-Learn es extremadamente sencillo si sabemos cómo definir los parámetros de nuestro algoritmo.
 
 En pocas palabras solo tenemos que seguir los siguientes pasos:
-
- seleccionar nuestro documento de entrada (input), seleccionar el nombre de la columna que no utilizaremos
 
 - Importar las librerías que necesitaremos
 - Seleccionar nuestro documento de entrada
